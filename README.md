@@ -21,7 +21,6 @@ Goal:
 Testing conditions:
 * Pre and Post indexed query times using PSQL 'EXPLAIN ANALYZE' command
 
-![alt text](./TestingResults/explainanalyzetable.png)
 
 Goal:
 * Locally handle at least 1000 VUS
@@ -32,7 +31,6 @@ Testing Conditions:
 * request product range from 1 - 10000
 * test duration 1 minute
 
-![alt text](./TestingResults/k6table.png)
 
 ### Deployed ###
 
@@ -52,4 +50,4 @@ Constraints:
 Results:
 * All requests were able to handle 4000 RPS with less than a 1% error rate.
 
-![alt text](./TestingResults/loaderiotable.png)
+
