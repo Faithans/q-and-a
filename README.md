@@ -23,24 +23,24 @@ Testing conditions:
 
 
 Goal:
-* Locally handle at least 1000 VUS
+* reach 1000 RPS with less than 1% error rate
 * Average Response time of 200ms or less
 
 Testing Conditions:
 * K6
-* request product range from 1 - 10000
-* test duration 1 minute
+* test duration 30sec
+* 99% of test case must under 50 ms
 
-
+Results:
+* All requests were able to handle 1000 RPS with less than a 1% error rate.
 ### Deployed ###
 
 Goal: Horizontally scale to:
-* reach 5000 RPS with less than 1% error rate
+* reach 1000 RPS with less than 1% error rate
 * average response time less than 2000ms
 
 Testing Conditions:
 * k6
-* request product range from 1 - 10000
 * test duration 30sec
 
 Constraints:
@@ -48,6 +48,6 @@ Constraints:
 * Cannot use additional AWS services
 
 Results:
-* All requests were able to handle 4000 RPS with less than a 1% error rate.
+* Able to reach 400ms average responding time.
 
 
