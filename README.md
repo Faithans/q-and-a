@@ -9,7 +9,7 @@ Developed RESTful API and database for ratings and reviews of an inherited front
 
 ## About ##
 
-System Design Capstone for Hackreactor. This repo represents the ratings and reviews API for an eCommerce website that was divided into a service based architecture. The API, server, and database were designed to interface with an inherited front-end code base. After creating and optimizing the backend, it was load tested locally, dockerized, deployed on ec2 instances, and load tested again. Upon deployment the throughput decreased significantly, so to increase this, the system was horizontally scaled by adding more servers with an nginx load balancer. The code in this repo does not include the raw data csv's and their 19 million+ lines of data.
+System Design Capstone for Hackreactor. This repo represents the ratings and reviews API for an eCommerce website that was divided into a service based architecture. The API, server, and database were designed to interface with an inherited front-end code base. After creating and optimizing the backend, it was load tested locally, dockerized, deployed on ec2 instances, and load tested again. Upon deployment the throughput decreased significantly, so to increase this, the system was horizontally scaled by adding more servers with an nginx load balancer(on-going). The code in this repo does not include the raw data csv's and their 19 million+ lines of data.
 
 ## Performance Testing ##
 
